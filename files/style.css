@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 5rem;
+    align-items: center;
+}
+
+nav .left {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav .right {
+    width: 40%;
+}
+
+nav .right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+nav .right ul {
+    display: flex;
+}
+
+nav .right li {
+    list-style: none;
+    margin: 0 34px;
+}
+nav .right a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .right a:hover {
+    color: whitesmoke;
+}
+
+
+/* Main Page */
+
+/* First Section */
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    color: white;
+}
+
+.left-first {
+    width: 25%;
+    margin: 8% 0;
+    font-size: 25px;
+}
+
+.left-first .you-are {
+    font-size: 2rem;
+    color: darkgray;
+}
+
+.left-first h1 {
+    color: white;
+}
+
+.left-first hr {
+    width: 8rem;
+    height: 4px;
+    background-color: burlywood;
+    border: 0;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.left-first .bio {
+    color: white;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.left-first .des {
+    color: blueviolet;
+}
+
+.left-first .welcome {
+    font-size: 0.6rem;
+    color: #f8f4f4;
+    margin: 20px 0 90px 0;
+}
+
+.left-first .lets_talk {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    margin-top: 5rem;
+}
+
+.lets_talk span {
+    width: 10px;
+    margin-left: 25px;
+}
+
+.lets_talk span:hover {
+    animation-delay: 10;
+    margin-left: 30px;
+}
+
+.right-first {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.right-first .first img {
+    height: 60vh;
+    border-radius: 40px;
+}
+
+.right-first .second {
+    margin: 0 34px;
+    color: rgb(160, 156, 156);
+    font-size: 20px;
+    text-align: center;
+}
+
+.second h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+/* Second section */
+
+.second-section {
+    background-color: #260543;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-section img {
+    width: 4rem;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.third-section .left-third {
+    width: 24%;
+    color: white;
+}
+
+.third-section .left-third h1 {
+    margin: 60px 0 30px 0;
+    font-size: 2.5rem;
+}
+
+.third-section .right-third {
+    width: 35rem;
+    color: white;
+}
+
+.right-third .box {
+    display: flex;
+    border: 1px solid #222870;
+    height: 8rem;
+    background-color: #060e28;
+    border-radius: 5px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.third-section-image {
+    margin: 0 40px;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+.right-third .title span {
+    display: inline;
+    margin-left: 5rem;
+    margin-right: 19px;
+    color: yellow;
+    font-size: 2rem;
+}
+
+.box .title {
+    font-size: 1.5rem;
+}
+
+.forth-section {
+    margin: 6%;
+    border-radius: 3px;
+    color: white;
+    background-color: #150028;
+    ;
+    border-radius: 1rem;
+}
+
+.portfolio .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio .head .port-head {
+    margin: 40px;
+}
+
+.portfolio .head .see-more a {
+    color: rgb(237, 237, 117);
+    text-decoration: none;
+}
+
+.portfolio .head .see-more a:hover {
+    color: rgb(111, 212, 100);
+    font-size: 1.1rem;
+}
+
+.portfolio .work {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    margin: 0 3%;
+    height: 80vh;
+}
+
+.portfolio .work img {
+    height: 12rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.work .ourport h2 {
+    font-size: 1.2rem;
+}
+
+.work .ourport p {
+    font-size: 0.7rem;
+    color: gray;
+    margin-top: 10px;
+}
+
+.fifth-section {
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+.fifth-section .fifth-left {
+    width: 30%;
+    margin-right: 4rem;
+    position: relative;
+}
+
+.fifth-left img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.fifth-left .don {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.fifth-left .quote {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.fifth-right {
+    width: 30%;
+}
+
+.dual-quote {
+    font-size: 3rem;
+}
+
+.fifth-right p {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.fifth-right span {
+    color: blueviolet;
+}
+
+.fifth-right .arrow {
+    margin-top: 2rem;
+    color: gray;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.arrow a {
+    text-decoration: none;
+}
+
+.arrow1:hover {
+    font-size: 2rem;
+    color: yellowgreen;
+}
+
+.arrow2:hover {
+    font-size: 2rem;
+    color: yellowgreen;
+}
+
+.sixth-section {
+    display: flex;
+    justify-content: center;
+}
+
+.left-sixth {
+    width: 30%;
+    margin-right: 5rem;
+    margin-top: 30px;
+}
+
+.left-sixth font {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.left-sixth a {
+    color: yellow;
+    display: inline-block;
+    margin-top: 4rem;
+}
+
+.left-sixth a u {
+    text-decoration: none;
+}
+
+.right-sixth {
+    width: 30%;
+    height: 25rem;
+}
+
+.right-sixth img {
+    object-fit: cover;
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+footer {
+    height: 20vh;
+    background-color: rgb(7, 3, 47);
+}
+
+.footer {
+    padding: 2rem 0 0 4rem;
+}
+
+.footer p {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.icon img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+    /* background-color: white; */
+}
