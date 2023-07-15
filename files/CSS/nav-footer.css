@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    height: 5rem;
+    background-color: #222870;
+    align-items: center;
+}
+
+nav .left a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+}
+
+nav .right ul {
+    display: flex;
+}
+
+nav .right li {
+    list-style: none;
+    margin: 0 14px;
+}
+nav .right a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .right a:hover {
+    transition-duration: 0.3s;
+    color: rgb(234, 221, 148);
+}
+
+.hamburger {
+    display: none;
+    cursor:pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition:all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/* footer */
+
+footer {
+    height: 20vh;
+    background-color: rgb(7, 3, 47);
+    width: 100%;
+}
+
+footer .footer {
+    padding: 2rem 0 2rem 4rem;
+}
+
+.footer p {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer .icon a {
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 4rem;
+    color: rgba(220, 13, 40, 0.608);
+}
+
+.footer .icon a:hover {
+    color: rgba(220, 13, 41, 0.981);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/nav-footer.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <script type="text/javascript" src="../JS/jsvalidation.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <header>
+        <nav>
+            <div class="left">
+                <a href="../../index.html">Saurabh Kumar</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tel:72176**540" id="header-phone" class="fa fa-phone">&nbsp;&nbsp;+917217667542</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- JS for Nav  -->
+    <script type="text/javascript">
+        const hamburger = document.querySelector(".hamburger");
+        const right = document.querySelector(".right");
+
+        hamburger.addEventListener("click", ()=> {
+            hamburger.classList.toggle("active");
+            right.classList.toggle("active");
+        })
+    </script>
+
+    <!-- Contact Page -->
+    <section class="tenth-section">
+        <div class="contact">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <h1>Get In Touch</h1>
+            </div>
+            <div class="tenth-section-content">
+                <div class="left-tenth">
+                    <h2>Contact me</h2>
+                    <a href="tel:72176**540"><i class="fa fa-phone"></i> &nbsp;&nbsp;+91 7217667542</a><br>
+                    <a href="mailto:sk0008861@gmail.com"><i class="fa fa-envelope"></i> &nbsp;&nbsp;saurabhkumar@gmail.com</a><br>
+                    <p class="location"><i class='fa fa-map-marker'></i> &nbsp;&nbsp;&nbsp;New Delhi, India</p><br>
+                </div>
+                <div class="right-tenth">
+
+                    <form action="../PHP/contact_data.php" onsubmit="return validateForm()" name="myForm" method="post">
+                        <p id="msg6"></p>
+                        <input type="text" name="org_name" placeholder="Organization Name" >
+                        <p id="msg1"></p>
+                        <input type="text" name="name" placeholder="Name" >
+                        <p id="msg2"></p>
+                        <input type="email" name="mail" placeholder="mail@gmail.com" >
+                        <p id="msg3"></p>
+                        <input type="tel" name="phone" placeholder="72**67**40">
+                        <p id="msg4"></p>
+                        <textarea name="msg" cols="100" rows="10" placeholder="Message"></textarea>
+                        <p id="msg5"></p>
+                        <input type="submit" name="save" value="Submit" class="submit-form">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <p>Follow Us</p><br>
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100041152652735" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/saurabh-kumar-732334280/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/SaurabhKumarDev" class="fa fa-github"></a>
+                <a href="mailto:sk0008861@gmail.com" class="fa fa-envelope"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

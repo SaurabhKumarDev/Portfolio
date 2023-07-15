@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Contact Page */
+
+/* Tenth Section */
+
+.tenth-section {
+    background-color: #0d13389c;
+}
+
+.contact {
+    padding: 5%;
+    margin-top: 5rem;
+}
+
+.contact .section-head {
+    text-align: center;
+}
+
+.section-head h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.section-head h2 {
+    color: gray;
+}
+
+.contact .tenth-section-content {
+    margin: 4rem 4rem 0 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tenth-section-content .left-tenth {
+    width: 30%;
+}
+
+.left-tenth {
+    font-size: 20px;
+    color: white;
+}
+
+.left-tenth h2 {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.left-tenth a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-tenth a:hover {
+    transition-duration: 1s;
+    color: rgba(141, 131, 131, 0.49);
+}
+
+.left-tenth i {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.tenth-section-content .right-tenth {
+    width: 40%;
+}
+
+.right-tenth form input {
+    width: 90%;
+    border: 0;
+    background-color: #260543;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.right-tenth form textarea {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 25px;
+    color: white;
+    font-size: 1rem;
+    background-color:#260543;
+}
+
+.right-tenth p {
+    color: red;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.right-tenth form .submit-form {
+    width: 50%;
+    border-radius: 5%;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.right-tenth form .submit-form:hover {
+    background-color: white;
+    color: black;
+}
