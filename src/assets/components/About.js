@@ -19,7 +19,7 @@ function About() {
                     <p className='mb-3'>Completed <span style={{ color: "#8f4ccc" }}>B.Tech.</span> in <span style={{ color: "#8f4ccc" }}>Computer Science & Engineering</span> at ADGITM, affiliated with GGSIPU, with an impressive percentage of <span style={{ color: "#8f4ccc" }}>82.20%</span>.</p>
                     <p className='mb-1'>Apart from coding, some other activities that I love to do!</p>
                     <ul style={{ listStyleImage: "url('../images/About/list Style image.svg')" }}>
-                        <li>Travelling</li>
+                        <li>Traveling</li>
                         <li>Watching movies and series</li>
                     </ul>
                     <p>I am eager to apply my skills in a professional setting and contribute to innovative projects that make a positive impact.</p>
@@ -37,37 +37,37 @@ function About() {
                     </h2>
                 </div>
                 <div className='container d-flex flex-wrap gap-5 justify-content-center pt-4 pb-5'>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='HTML'>
                         <i className="fa-brands fa-html5 text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='CSS'>
                         <i className="fa-brands fa-css3 text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='Bootstrap CSS'>
                         <i className="fa-brands fa-bootstrap text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='Express.js'>
                         <img src={Express} />
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='MySQL'>
                         <i className="fa-solid fa-database text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='Mongo DB'>
                         <i className="fa-solid fa-leaf"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='PHP'>
                         <i className="fa-brands fa-php"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='JavaScript'>
                         <i className="fa-brands fa-node-js text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='React Js'>
                         <i className="fa-brands fa-react text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='Node Js'>
                         <i className="fa-brands fa-node text-light"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='Java'>
                         <i className="fa-brands fa-java text-light"></i>
                     </div>
                 </div>
@@ -76,10 +76,10 @@ function About() {
                     <span style={{ color: "#8f4ccc" }}>T</span>oo<span style={{ color: "#8f4ccc" }}>l</span>s <span style={{ color: "#8f4ccc" }}>I</span> u<span style={{ color: "#8f4ccc" }}>s</span>e
                 </h2>
                 <div className='container d-flex flex-wrap gap-5 justify-content-center pt-4 pb-5'>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='Windows'>
                         <i className="fa-brands fa-windows"></i>
                     </div>
-                    <div className='aboutLargeIcons'>
+                    <div className='aboutLargeIcons' title='VS-Code'>
                         <img src={VisualStudio} />
                     </div>
                 </div>
