@@ -161,12 +161,6 @@
         height: auto;
     }
 }
-@media (min-width: 990px) {
-    .educationCertificates {
-        /* height: 60rem; */
-    }
-    
-}
 
 @media (min-width:1500px) {
     .educationCertificates {
