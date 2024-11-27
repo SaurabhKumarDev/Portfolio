@@ -23,7 +23,7 @@ function Contact() {
         element.target.style.backgroundColor = "black";
         element.target.style.color = "white";
     }
-    console.log(process.env.CONTACT_API)
+    console.log(process.env.REACT_APP_CONTACT_API)
     return (
         <div className="text-light container pt-3 pb-3">
             <div>
@@ -33,7 +33,7 @@ function Contact() {
                 </div>
                 <form className='rounded shadow-lg p-4' action="https://api.web3forms.com/submit" method='post' target='_blank' autocomplete="on" style={{ backgroundColor: "#19197073", boxShadow: "rgb(138 165 93) 0px 0px 20px 0px" }} >
                     {/* Replace with your Access Key */}
-                    <input type="hidden" name="access_key" value={process.env.CONTACT_API} />
+                    <input type="hidden" name="access_key" value={process.env.REACT_APP_CONTACT_API} />
                     <div className='row mb-2s'>
                         <div className="col-md-6 mb-3">
                             <label className='form-label' for='firstName'>First Name</label>
