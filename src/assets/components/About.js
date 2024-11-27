@@ -25,7 +25,7 @@ function About() {
                     <p><span style={{ color: "#8f4ccc", fontWeight: "700" }}>Thank you</span> for taking the time to review my portfolio.</p>
                 </div>
                 <div className='w-50 w-md-25 text-center    '>
-                    <img src={Photo} draggable="false" style={{ width: "70%", padding: "5px", border: "2px solid white", borderRadius: "50%" }} />
+                    <img src={Photo} alt='Owner' draggable="false" style={{ width: "70%", padding: "5px", border: "2px solid white", borderRadius: "50%" }} />
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ function About() {
                         <i className="fa-brands fa-bootstrap text-light"></i>
                     </div>
                     <div className='aboutLargeIcons' title='Express.js'>
-                        <img src={Express} />
+                        <img src={Express} alt='Express Js' />
                     </div>
                     <div className='aboutLargeIcons' title='MySQL'>
                         <i className="fa-solid fa-database text-light"></i>
@@ -79,7 +79,7 @@ function About() {
                         <i className="fa-brands fa-windows"></i>
                     </div>
                     <div className='aboutLargeIcons' title='VS-Code'>
-                        <img src={VisualStudio} />
+                        <img src={VisualStudio} alt='Visual studio icon' />
                     </div>
                 </div>
             </div>

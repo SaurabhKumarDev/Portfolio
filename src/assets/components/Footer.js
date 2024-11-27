@@ -9,7 +9,7 @@ function Footer() {
         element.target.style.backgroundColor = "black";
         element.target.style.color = "white";
     }
-    const date = new Date;
+    const date = new Date();
     return (
         <div className='d-flex flex-column flex-md-row justify-content-between gap-2 align-items-center text-light bg-dark px-4 py-2' style={{ fontSize: "small" }}>
             <div>Designed and Developed By <strong>Saurabh Kumar</strong></div>

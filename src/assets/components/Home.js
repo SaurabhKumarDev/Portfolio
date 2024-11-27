@@ -74,7 +74,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='w-100 w-lg-35 d-flex justify-content-center'>
-                    <img src={FirstImage} className='' style={{ height: "100%", width: "80%", borderRadius: "40px" }} draggable='false' />
+                    <img src={FirstImage} alt='First' className='' style={{ height: "100%", width: "80%", borderRadius: "40px" }} draggable='false' />
                 </div>
             </div>
 
@@ -87,7 +87,7 @@ function Home() {
                     <p>Whenever possible, I also apply my passion for developing products with <span style={{ color: "blueviolet" }}>Node.js</span> and Modern <span style={{ color: "blueviolet" }}>Javascript Library and Frameworks</span> like <span style={{ color: "blueviolet" }}>React.js and Node.js</span></p>
                 </div>
                 <div className='text-center'>
-                    <img src={Avatar} draggable="false" style={{ height: "210px" }} />
+                    <img src={Avatar} alt='Avatar' draggable="false" style={{ height: "210px" }} />
                 </div>
             </div>
 

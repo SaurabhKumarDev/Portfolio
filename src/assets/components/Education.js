@@ -12,7 +12,7 @@ function Education() {
         <div className='container'>
             <div className='my-2 my-md-5 flex-column flex-xl-row gap-2 gap-md-5 justify-content-evenly align-items-center d-none d-sm-flex w-auto'>
                 <div style={{}} className='education-image-height'>
-                    <img src={MobileImage} alt="Mobile image" className='d-none d-sm-block d-lg-none' style={{ width: "max-content", height: "auto", maxWidth: "100vw" }} />
+                    <img src={MobileImage} alt="Mobile" className='d-none d-sm-block d-lg-none' style={{ width: "max-content", height: "auto", maxWidth: "100vw" }} />
                     <svg
                         style={{ height: "-webkit-fill-available" }}
                         id="eb113788-f1f1-4c1f-be62-f1d0ea2e1eb6"
@@ -231,8 +231,8 @@ function Education() {
                     <h1 className='text-center'>Education</h1>
                     <h5 className='text-center mb-2 mb-lg-4'>Basic Qualification and Certificates</h5>
                     <div className='d-flex justify-content-center gap-5'>
-                        <a href='https://www.geeksforgeeks.org/user/saurabh_kumar_dev/' target='_blank' rel="noreferrer"><img title='GFG' src={GFG} style={{ height: "3rem", borderRadius: "50%" }} /></a>
-                        <a href='https://leetcode.com/u/SaurabhKumarDev/' target='_blank' rel="noreferrer"><img title='LeetCode' src={LeetCode} style={{ height: "3rem" }} /></a>
+                        <a href='https://www.geeksforgeeks.org/user/saurabh_kumar_dev/' target='_blank' rel="noreferrer"><img title='GFG' alt='gfg' src={GFG} style={{ height: "3rem", borderRadius: "50%" }} /></a>
+                        <a href='https://leetcode.com/u/SaurabhKumarDev/' target='_blank' rel="noreferrer"><img title='LeetCode' alt='LeetCode' src={LeetCode} style={{ height: "3rem" }} /></a>
                     </div>
                 </div>
             </div>

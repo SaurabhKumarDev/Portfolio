@@ -29,7 +29,7 @@ function Contact() {
             <div>
                 <div className='text-center mt-3 mb-5'>
                     <h1 className='fw-bold '>Get in Touch</h1>
-                    <h5 className=''>Reach out on <a href='https://linkedin.com/in/saurabhkumardev' target='_blank' style={{ textDecoration: "none" }} className='text-info'>LinkedIn</a> for a quicker response!</h5>
+                    <h5 className=''>Reach out on <a href='https://linkedin.com/in/saurabhkumardev' target='_blank' rel="noreferrer" style={{ textDecoration: "none" }} className='text-info'>LinkedIn</a> for a quicker response!</h5>
                 </div>
                 <form className='rounded shadow-lg p-4' action="https://api.web3forms.com/submit" method='post' target='_blank' autocomplete="on" style={{ backgroundColor: "#19197073", boxShadow: "rgb(138 165 93) 0px 0px 20px 0px" }} >
                     {/* Replace with your Access Key */}

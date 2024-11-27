@@ -5,6 +5,7 @@ function Resume() {
     return (
         <div className='container my-5'>
             <iframe 
+                title='Resume'
                 src={`${CV}`} 
                 width="100%" 
                 style={{ border: 'none', height:"80vh" }} 
