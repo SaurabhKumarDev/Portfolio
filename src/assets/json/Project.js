@@ -1,5 +1,14 @@
 export const projectData = [
     {
+        "projectName": "E-Commerce (MERN Stack)",
+        "repositoryLink": "https://github.com/SaurabhKumarDev/ECommerce",
+        "image": require("../image/project/ECommerce.png"),
+        "liveProjectLink": "https://fullstack-ecommerce-web.vercel.app/",
+        "technologiesUsed": ["ReactJs","Tailwind-CSS","MUI", "API", "ExpressJs", "MonogoDB", "Node Js", "RazorPay"],
+        "createdDate": "Oct 2024",
+        "description": "The platform offers a comprehensive customer view featuring a search bar, cart, payment gateway, wishlist, profile page, and seamless product browsing. For administrators, a robust panel enables CRUD operations for products, stock management, user controls, and real-time updates. It also provides secure access for tracking orders and monitoring sales through a dynamic statistics bar. Performance is optimized to deliver a seamless user experience, including efficient product search, streamlined checkout, and payment integration via PayPal."
+    },
+    {
         "projectName": "ChatRoom for Local communities",
         "repositoryLink": "https://github.com/SaurabhKumarDev/ChatRoom",
         "image": require("../image/project/ChatRoom.png"),
