@@ -1,5 +1,14 @@
 export const projectData = [
     {
+        "projectName": "ChatRoom for Local communities",
+        "repositoryLink": "https://github.com/SaurabhKumarDev/ChatRoom",
+        "image": require("../image/project/ChatRoom.png"),
+        "liveProjectLink": "https://chatroom-vre3.onrender.com/",
+        "technologiesUsed": ["HTML-CSS-JS","Express","Socket.io", "Redis"],
+        "createdDate": "July 2024",
+        "description": "Secure private rooms with username and room name access, real-time WebSocket chat, Redis-cached low-latency messaging, and a 'Leave Room' button for easy room management."
+    },
+    {
         "projectName": "Headline Vault",
         "repositoryLink": "https://github.com/SaurabhKumarDev/Headline-Vault",
         "image": require("../image/project/headline.png"),
