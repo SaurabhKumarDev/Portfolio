@@ -1,12 +1,12 @@
 export const expreienceData = [
     {
-        "title": "Javascript Intern",
+        "title": "Javascript Developer",
         "company": {
             "name": "VMukti Solution Pvt. Ltd.",
             "url": "https://www.linkedin.com/company/vmuktisolutions/mycompany/"
         },
         "period": "June 2024 - Present",
-        "tech": "Express JS | REST API | MongoDB | Node JS",
+        "tech": "React JS | Express JS | REST API | MongoDB | Node JS",
         "details": [
             "Developed APIs using Express.js and MongoDB, handling CRUD operations and user authentication.",
             "Implemented robust security measures including JWT for authentication and express-rate-limit for rate limiting.",
