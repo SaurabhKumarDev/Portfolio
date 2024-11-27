@@ -240,7 +240,6 @@
 .flip-card {
     display: block;
     width: 45%;
-    /* max-width: 300px; */
     margin: 10px auto;
     border: 2px solid white;
     border-radius: 14px;
@@ -363,13 +362,11 @@
 
 .project-card-container{
     background-color: white;
-    /* border-radius: 50px; */
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-bottom: 3rem;
 }
 .project-card-image{
     width: 280px;
@@ -377,11 +374,6 @@
 .project-card-right{
     padding-top: 20px;
     padding-bottom: 20px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
- */
 }
 @media (max-width: 770px) {
     .home-greeting {

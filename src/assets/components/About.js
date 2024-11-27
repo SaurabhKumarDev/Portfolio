@@ -15,7 +15,6 @@ function About() {
                     </div>
                     <p>Hi Everyone, I am <span style={{ color: "#8f4ccc" }}>Saurabh Kumar</span> from <span style={{ color: "#8f4ccc" }}>Delhi, India.</span></p>
                     <p><span style={{ color: "#8f4ccc" }}>Full stack software developer</span> with expertise in front-end and back-end development, experienced in leading cross-functional terms.</p>
-                    {/* <p>I love simplifying complex problems into user-friendly designs. My skills in problem-solving and <span style={{ color: "#8f4ccc" }}>coding</span> help me create efficient, intuitive solutions.</p> */}
                     <p className='mb-3'>Completed <span style={{ color: "#8f4ccc" }}>B.Tech.</span> in <span style={{ color: "#8f4ccc" }}>Computer Science & Engineering</span> at ADGITM, affiliated with GGSIPU, with an impressive percentage of <span style={{ color: "#8f4ccc" }}>82.20%</span>.</p>
                     <p className='mb-1'>Apart from coding, some other activities that I love to do!</p>
                     <ul style={{ listStyleImage: "url('../images/About/list Style image.svg')" }}>

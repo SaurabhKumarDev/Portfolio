@@ -131,9 +131,6 @@ function Contact() {
                         </a>
                     </div>
                 </form>
-                {/* <Link to="/" className="btn btn-secondary py-2 px-4 mt-3" type="button" style={{ position: "", bottom: "20px", left: "20px", textDecoration: "none", color: "white" }}>
-                    Go Back
-                </Link> */}
             </div>
         </div>
     )

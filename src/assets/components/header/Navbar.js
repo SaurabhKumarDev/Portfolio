@@ -34,7 +34,6 @@ function Navbar() {
                         <li><Link to="/experience" className="text-light" onClick={toggleSidebar}>Experience</Link></li>
                         <li><Link to="/project" className="text-light" onClick={toggleSidebar}>Projects</Link></li>
                         <li><Link to="/education" className="text-light" onClick={toggleSidebar}>Education</Link></li>
-                        {/* <li><Link to="/resume" className="text-light" onClick={toggleSidebar}>Resume</Link></li> */}
                         <li><Link to="/contact" className="text-light" onClick={toggleSidebar}>Contact Me</Link></li>
                     </ul>
                 </div>
