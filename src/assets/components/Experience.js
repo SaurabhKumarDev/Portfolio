@@ -1,5 +1,5 @@
 import React from 'react'
-import { expreienceData } from "../json/Experince"
+import { ExperienceData } from "../json/Experience"
 
 function Experience() {
     return (
@@ -9,7 +9,7 @@ function Experience() {
             </h2>
 
             <div className="d-flex flex-column gap-5">
-                {expreienceData.map((item, index) => {
+                {expreienceData.map((item) => {
                     return <div className="experience-container">
                         <div className="experience-header p-3">
                             <div className='d-flex justify-content-between mb-2'>
