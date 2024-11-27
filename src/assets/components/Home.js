@@ -12,7 +12,7 @@ function Home() {
     useEffect(() => {
         // Options for the Typed.js instance
         const options = {
-            strings: ['Fresher', 'Front-end Developer', 'Java Script', 'React JS', 'MERN Stack', 'Java Developer', 'Complex Problem Solver'],
+            strings: ['Front-end Developer', 'Java Script Developer', 'React JS', 'MERN Stack', 'Complex Problem Solver'],
             typeSpeed: 120,
             loop: true
         };
