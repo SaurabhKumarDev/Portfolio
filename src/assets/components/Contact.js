@@ -23,7 +23,7 @@ function Contact() {
         element.target.style.backgroundColor = "black";
         element.target.style.color = "white";
     }
-    console.log(process.env.REACT_APP_CONTACT_API)
+    
     return (
         <div className="text-light container pt-3 pb-3">
             <div>
