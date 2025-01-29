@@ -1,11 +1,25 @@
 export const ExperienceData = [
     {
+        "title": "Web Developer",
+        "company": {
+            "name": "Apna online vyapar",
+            "url": "https://apnaonlinevyapar.com/"
+        },
+        "period": "Jan 2025 - Present",
+        "tech": "HTML-CSS-Bootstrap | JS | API | MySQL | PHP | Laravel",
+        "details": [
+            "Developed dynamic websites with PHP, ensuring content and functionality adapt based on specific conditions or scenarios.",
+            "Actively contributed to ongoing projects, ensuring seamless integration of new features and maintaining overall project quality.",
+            "Utilized MySQL with phpMyAdmin for efficient database management and data storage"
+        ]
+    },
+    {
         "title": "Javascript Developer",
         "company": {
             "name": "VMukti Solution Pvt. Ltd.",
             "url": "https://www.linkedin.com/company/vmuktisolutions/mycompany/"
         },
-        "period": "June 2024 - Present",
+        "period": "June 2024 - Nov 2024",
         "tech": "React JS | Express JS | REST API | MongoDB | Node JS",
         "details": [
             "Developed APIs using Express.js and MongoDB, handling CRUD operations and user authentication.",
