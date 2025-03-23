@@ -1,12 +1,12 @@
 export const ExperienceData = [
     {
-        "title": "Web Developer",
+        "title": "Backend Developer",
         "company": {
             "name": "Apna online vyapar",
             "url": "https://apnaonlinevyapar.com/"
         },
         "period": "Jan 2025 - Present",
-        "tech": "HTML-CSS-Bootstrap | JS | API | MySQL | PHP | Laravel",
+        "tech": "HTML-CSS-Bootstrap | JS | API | MySQL | PHP",
         "details": [
             "Developed dynamic websites with PHP, ensuring content and functionality adapt based on specific conditions or scenarios.",
             "Actively contributed to ongoing projects, ensuring seamless integration of new features and maintaining overall project quality.",
