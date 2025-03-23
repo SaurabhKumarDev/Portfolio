@@ -1,5 +1,14 @@
 export const projectData = [
     {
+        "projectName": "Advance AI Numerology",
+        "repositoryLink": "https://github.com/Saurabh-AOV/advance-ai-numerology",
+        "image": require("../image/project/Numerology.png"),
+        "liveProjectLink": "https://numerologyo.com/",
+        "technologiesUsed": ["HTML","CSS","Bootstrap", "JS", "PHP", "MySQL"],
+        "createdDate": "Feb 2025",
+        "description": "Enter your details & get an instant numerology report : Uncover your strengths, overcome obstacles, and gain insights with our AI-based Numerology! Just input your name, birth date and mobile number to get a comprehensive numerology report. Learn about your personlaity, professional path, and life's journey in an effortless manner. Begin your self-discovery now!"
+    },
+    {
         "projectName": "E-Commerce (MERN Stack)",
         "repositoryLink": "https://github.com/SaurabhKumarDev/ECommerce",
         "image": require("../image/project/ECommerce.png"),
